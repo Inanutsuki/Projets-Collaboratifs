@@ -1,0 +1,125 @@
+.container-fluid.mom {
+    min-width: 300px;
+    height: 100vh;
+}
+
+/* Début nav-haut */
+
+.container-fluid .icons-top {
+    justify-content: flex-end;
+}
+
+.btn {
+    border: none;
+}
+
+.container-fluid.nav-haut svg {
+    fill: white;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.dropdown-menu {
+    left: -150px;
+}
+
+.btn:hover {
+    background-color: rgb(33, 37, 41);
+}
+
+.form-inline:hover {
+    background-color: red;
+}
+
+/* Fin nav-bas */
+
+/* Début body */
+
+/* .container-fluid.body .car-img-top {
+    height: 210px;
+} */
+
+/* .container-fluid.body .card-body img {
+    height: 60px; */
+
+/* .container-fluid.body .row {
+        display: flex;
+    }
+
+.container-fluid.body .row [class^="col"] {
+    justify-content: space-between;
+} */
+
+.container-fluid.body .row .svg {
+    width: auto;
+}
+
+.container-fluid.body .row .logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container-fluid.body .btn {
+    background-color: white;
+    border: none;
+}
+
+.container-fluid.body span {
+    padding: 2.5px;
+    color: #828282;
+    font-size: small;
+}
+
+/* Fin body*/
+
+/* Début nav-bas */
+
+.container-fluid.nav-bas {
+    position: fixed;
+    bottom: 0;
+}
+
+.container-fluid.nav-bas svg {
+    width: 24px;
+}
+
+.container-fluid.nav-bas .navbar-nav {
+    justify-content: space-around;
+}
+
+.container-fluid.nav-bas .nav-item {
+    width: 100%;
+}
+
+.container-fluid.nav-bas .nav-link {
+    overflow: hidden;
+}
+
+.container-fluid.nav-bas .nav-link:focus svg {
+    fill: red;
+}
+
+.container-fluid.nav-bas .nav-link:focus .text-link {
+    font-weight: 400;
+    color: red;
+}
+
+.container-fluid.nav-bas .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-fluid.nav-bas .text-link {
+    font-weight: 400;
+    padding: 0 4px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Fin nav-bas */
