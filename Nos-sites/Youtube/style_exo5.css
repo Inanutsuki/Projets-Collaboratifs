@@ -6,15 +6,15 @@
 
 /* Début nav-haut */
 
-.container-fluid .icons-top {
+.nav-haut .icons-top{
     justify-content: flex-end;
 }
 
-.btn {
+.navbar-haut .btn {
     border: none;
 }
 
-.container-fluid.nav-haut svg {
+.nav-haut .icons{
     fill: white;
 }
 
@@ -22,15 +22,19 @@
     padding-right: 10px;
 }
 
-.dropdown-menu {
+.navbar-haut .dropdown-menu {
     left: -150px;
 }
 
-.btn:hover {
-    background-color: rgb(33, 37, 41);
+.navbar-haut .dropdown-item:hover{
+    background-color:transparent;
 }
 
-.form-inline:hover {
+.navbar-haut .search svg{
+    fill: white;
+}
+
+.navbar-haut .form-inline:hover {
     background-color: red;
 }
 
