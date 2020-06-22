@@ -26,13 +26,18 @@
     left: -150px;
 }
 
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+
 .btn:hover {
     background-color: rgb(33, 37, 41);
 }
 
-.form-inline:hover {
+/* .form-inline:hover {
     background-color: red;
-}
+} */
 
 /* Fin nav-bas */
 
@@ -53,7 +58,7 @@
     justify-content: space-between;
 } */
 
-.container-fluid.body .row .svg {
+.container-fluid.body .row svg {
     width: 24px;
 }
 
@@ -78,10 +83,10 @@
 
 /* Début nav-bas */
 
-/* .container-fluid.nav-bas {
+ .container-fluid.nav-bas {
     position: fixed;
     bottom: 0;
-} */
+}
 
 .container-fluid.nav-bas svg {
     width: 24px;
