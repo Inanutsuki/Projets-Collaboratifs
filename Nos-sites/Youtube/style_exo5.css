@@ -42,40 +42,52 @@
 
 /* Début body */
 
-/* .container-fluid.body .car-img-top {
-    height: 210px;
-} */
-
-/* .container-fluid.body .card-body img {
-    height: 60px; */
-
-/* .container-fluid.body .row {
-        display: flex;
-    }
-
-.container-fluid.body .row [class^="col"] {
-    justify-content: space-between;
-} */
-
-.container-fluid.body .row svg {
-    width: 24px;
+.container-fluid.body .card-body {
+    padding-top: 0px;
 }
 
-.container-fluid.body .row .logo {
+.container-fluid.body .card {
+    border: none;
+}
+.container-fluid.body .card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.container-fluid.body .card .row .logo {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    max-width: 70px;
+    max-height: 42px;
 }
 
-.container-fluid.body .btn {
-    background-color: white;
-    border: none;
+.container-fluid.body .card .row svg {
+    width: 24px;
+
+}
+
+.container-fluid.body .card .row .svg {
+    text-align: right;
 }
 
 .container-fluid.body span {
     padding: 2.5px;
     color: #828282;
+    font-size: 12px;
+}
+
+.container-fluid.body .row .row {
+    padding-top: 5px;
+    margin: 0px;
+    height: 75px;
+}
+
+.container-fluid.body h6 {
     font-size: small;
+    font-weight: 600;
+    margin-bottom: 1px;
 }
 
 /* Fin body*/
