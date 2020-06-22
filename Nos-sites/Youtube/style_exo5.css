@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.bg-darky {
+    background-color: #202020 !important;
+}
+
 /* Début nav-haut */
 
 .nav-haut .icons-top{
@@ -41,6 +45,7 @@
 /* Fin nav-bas */
 
 /* Début body */
+.con
 
 .container-fluid.body .card-body {
     padding-top: 0px;
@@ -48,6 +53,9 @@
 
 .container-fluid.body .card {
     border: none;
+    border-radius: 0;
+    background-color: #181818;
+
 }
 .container-fluid.body .card-img {
     width: 100%;
@@ -65,7 +73,7 @@
 
 .container-fluid.body .card .row svg {
     width: 24px;
-
+    fill: white;
 }
 
 .container-fluid.body .card .row .svg {
@@ -74,7 +82,7 @@
 
 .container-fluid.body span {
     padding: 2.5px;
-    color: #828282;
+    color: #c5c5c5;
     font-size: 12px;
 }
 
@@ -88,6 +96,7 @@
     font-size: small;
     font-weight: 600;
     margin-bottom: 1px;
+    color: white;
 }
 
 /* Fin body*/
