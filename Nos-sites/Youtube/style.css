@@ -1,0 +1,175 @@
+/*
+Variables
+*/
+/*
+Theme 
+*/
+.bg-theme {
+  background-color: #f8f9fa;
+}
+
+.bg-theme-nav {
+  background-color: #e9ecef;
+}
+
+/*
+Theme 
+*/
+.nav-haut .icons-top {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #202020;
+}
+
+.nav-haut img {
+  margin-right: 5px;
+}
+
+.nav-haut .btn {
+  border: none;
+}
+
+.nav-haut .icons {
+  width: 24px;
+  height: 24px;
+  fill: #202020;
+}
+
+.nav-haut li {
+  padding-right: 10px;
+}
+
+.nav-haut .dropdown-menu {
+  left: -132px;
+}
+
+.nav-haut .dropdown-toggle::after {
+  color: #202020;
+}
+
+.nav-haut .form-inline:hover {
+  background-color: transparent;
+}
+
+.body .card-title {
+  color: #202020;
+}
+
+.body svg {
+  width: 24px;
+  color: #202020;
+}
+
+.body .svg {
+  text-align: right;
+}
+
+.body .card-body {
+  padding-top: 0px;
+}
+
+.body .card {
+  border: none;
+  border-radius: 0;
+  background-color: #181818;
+}
+
+.body .card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.body .logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 42px;
+}
+
+.body span {
+  padding: 2.5px;
+  color: #c5c5c5;
+  font-size: 12px;
+}
+
+.body .row .row {
+  padding-top: 5px;
+  margin: 0px;
+  height: 75px;
+}
+
+.body h6 {
+  font-size: small;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.body .navigator {
+  width: 100%;
+  height: 85px;
+}
+
+.nav-bas {
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-bas .text-link {
+  color: #202020;
+}
+
+.nav-bas svg {
+  width: 24px;
+  fill: #202020;
+}
+
+.nav-bas .navbar-nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-bas .nav-item {
+  width: 100%;
+}
+
+.nav-bas .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bas .nav-link {
+  margin: 10px 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bas .text-link {
+  font-weight: 400;
+  padding: 0 4px;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-bas a:focus svg {
+  fill: red;
+  font-weight: 400;
+}
+
+.nav-bas a:focus .text-link {
+  color: red;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

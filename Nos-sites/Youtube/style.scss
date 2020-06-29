@@ -1,0 +1,193 @@
+/*
+Variables
+*/
+
+$theme-dark: #202020;
+$theme-smooth: #f8f9fa;
+$bg-theme: ($theme-dark $theme-smooth);
+
+@mixin theme($color) {
+    @if ($color == $theme-dark) {
+      $color: lighten($theme-dark, 90%);
+    }@if ($color == $theme-smooth){
+        $color: darken($theme-smooth, 90%)
+    }
+    @content;
+}
+
+@mixin bg-nav($color) {
+    @if ($color == $theme-dark) {
+      $color: lighten($theme-dark, 5%);
+    }@if ($color == $theme-smooth){
+        $color: darken($theme-smooth, 5%)
+    }
+    background-color: $color;
+}
+
+/*
+Theme 
+*/
+
+$theme: $theme-dark;
+$theme-bg: $theme-smooth;
+
+.bg-theme {
+    background-color: nth($bg-theme, 2);
+}
+
+.bg-theme-nav {
+    @include bg-nav($theme-bg)
+}
+
+/*
+Theme 
+*/
+
+.nav-haut {
+    & .icons-top {
+        justify-content: flex-end;
+        @include theme($theme) {
+            color: $theme;
+        }
+    }
+
+    & img  {
+        margin-right: 5px;
+    }
+
+    & .btn {
+        border: none;
+    }
+    & .icons {
+        width: 24px;
+        height: 24px;
+        @include theme($theme) {
+            fill: $theme;
+        }
+    }
+    & li {
+        padding-right: 10px;
+    }
+    & .dropdown-menu {
+        left: -132px;
+    }
+    & .dropdown-toggle::after {
+        @include theme($theme) {
+            color: $theme;
+        }
+    }
+    & .form-inline:hover {
+        background-color: transparent;
+    }
+
+}
+
+.body {
+
+    & .card-title {
+    @include theme($theme) {
+        color: $theme;
+        }
+    }
+
+    & svg {
+        width: 24px;
+        @include theme($theme) {
+        color: $theme;
+        }
+    }
+    & .svg {
+        text-align: right;
+    }
+    & .card-body {
+        padding-top: 0px;
+    }
+    & .card {
+        border: none;
+        border-radius: 0;
+        background-color: #181818;
+    }
+    & .card-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    & .logo {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        max-width: 70px;
+        max-height: 42px;
+    }
+    & span {
+        padding: 2.5px;
+        color: #c5c5c5;
+        font-size: 12px;
+    }
+    & .row .row {
+        padding-top: 5px;
+        margin: 0px;
+        height: 75px;
+    }
+    & h6 {
+        font-size: small;
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+    & .navigator {
+        width: 100%;
+        height: 85px;
+    }
+
+}
+
+.nav-bas {
+    position: fixed;
+    bottom: 0;
+        & .text-link {
+            @include theme($theme) {
+                color: $theme;
+                }
+        }
+
+        & svg {
+            width: 24px;
+            @include theme($theme) {
+                fill: $theme;
+                }
+        }
+        & .navbar-nav {
+            justify-content: space-around;
+        }
+        & .nav-item {
+            width: 100%;
+        }
+        & .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        & .nav-link {
+            margin: 10px 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        & .text-link {
+            font-weight: 400;
+            padding: 0 4px;
+            font-size: 12px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        
+        & a:focus svg{
+            fill: red;
+            font-weight: 400;
+        }
+        & a:focus .text-link {
+            color: red;
+            font-weight: 400;
+          }        
+}

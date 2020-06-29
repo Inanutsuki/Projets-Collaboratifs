@@ -14,7 +14,7 @@
     justify-content: flex-end;
 }
 
-.navbar-haut .btn {
+.nav-haut .btn {
     border: none;
 }
 
@@ -22,30 +22,30 @@
     fill: white;
 }
 
-.container-fluid.nav-haut li {
+.nav-haut li {
     padding-right: 10px;
 }
 
 .nav-haut .dropdown-menu {
-    left: -131px;
+    left: -132px;
 }
 
-.navbar-haut .dropdown-item:hover{
+.nav-haut .dropdown-item:hover{
     background-color:transparent;
 }
 
-.navbar-haut .search svg{
+/* .nav-haut .search svg{
     fill: white;
-}
+} */
 
-.navbar-haut .form-inline:hover {
-    background-color: red;
-}
+/* .nav-haut .form-inline:hover {
+    background-color: transparent;
+} */
 
-/* Fin nav-bas */
+/* Fin nav-haut */
 
 /* Début body */
-.container-fluid.body .card-body {
+/* .container-fluid.body .card-body {
     padding-top: 0px;
 }
 
@@ -53,7 +53,6 @@
     border: none;
     border-radius: 0;
     background-color: #181818;
-
 }
 .container-fluid.body .card-img {
     width: 100%;
@@ -67,14 +66,11 @@
     border-radius: 50%;
     max-width: 70px;
     max-height: 42px;
-}
+} */
 
-.container-fluid.body .card .row svg {
-    width: 24px;
-    fill: white;
-}
 
-.container-fluid.body .card .row .svg {
+
+/* .container-fluid.body .card .row .svg {
     text-align: right;
 }
 
@@ -88,64 +84,66 @@
     padding-top: 5px;
     margin: 0px;
     height: 75px;
-}
+} */
 
-.container-fluid.body h6 {
+/* .body h6 {
     font-size: small;
     font-weight: 600;
     margin-bottom: 1px;
     color: white;
-}
+} */
 
 /* Fin body*/
 
 /* Début nav-bas */
 
- .container-fluid.nav-bas {
+ /* .nav-bas {
     position: fixed;
     bottom: 0;
 }
 
-.container-fluid.nav-bas svg {
+.nav-bas svg {
     width: 24px;
 }
 
-.container-fluid.nav-bas .navbar-nav {
+.nav-bas .navbar-nav {
     justify-content: space-around;
 }
 
-.container-fluid.nav-bas .nav-item {
+.nav-bas .nav-item {
     width: 100%;
 }
 
-.container-fluid.nav-bas .nav-link {
+.nav-bas .nav-link {
     margin: 10px 0;
     padding: 0;
     overflow: hidden;
 }
 
-.container-fluid.nav-bas .nav-link:focus svg {
+.nav-bas .nav-link:focus /*svg*//* {
     fill: red;
-}
-
-.container-fluid.nav-bas .nav-link:focus .text-link {
     font-weight: 400;
     color: red;
-}
+} */
 
-.container-fluid.nav-bas .col {
+/*.container-fluid.nav-bas .nav-link:focus .text-link {
+    font-weight: 400;
+    color: red;
+}*/
+
+/* .nav-bas .col {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container-fluid.nav-bas .text-link {
+.nav-bas .text-link {
     font-weight: 400;
     padding: 0 4px;
     font-size: 12px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
+} */
 
 /* Fin nav-bas */
