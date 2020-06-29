@@ -1,75 +1,77 @@
+@import "variables";
+
 body.theme-dark {
     & .nav-haut {
-        background-color: #2d2d2d;
+        @include bg-nav($theme-dark);
         & .icons-top {
-            color: #f8f9fa;
+            color: $theme-smooth;
         }
         & .icons {
-            fill: #f8f9fa;
+            fill: $theme-smooth;
         }
         & .dropdown-toggle::after {
-            color: #f8f9fa;
+            color: $theme-smooth;
         }
     }
     & .body {
         & .card {
-            background-color: #202020;
+            background-color: $theme-dark;
         }
         & .card-title {
-            color: #f8f9fa;
+            color: $theme-smooth;
         }
         & svg {
-            color: #f8f9fa;
+            color: $theme-smooth;
         }
         & .navigator {
-            background-color: #202020;
+            background-color: $theme-dark;
         }
     }
     & .nav-bas {
-        background-color: #2d2d2d;
+        @include bg-nav($theme-dark);
         & .text-link {
-            color: #f8f9fa;
+            color: $theme-smooth;
         }
         & svg {
-            fill: #f8f9fa;
+            fill: $theme-smooth;
         }
     }
 }
 
 body.theme-smooth {
     & .nav-haut {
-        background-color: #e9ecef;
+        @include bg-nav($theme-smooth);
         & .icons-top {
-            color: #202020;
+            color: $theme-dark;
         }
         & .icons {
-            fill: #202020;
+            fill: $theme-dark;
         }
         & .dropdown-toggle::after {
-            color: #202020;
+            color: $theme-dark;
         }
     }
     & .body {
         & .card {
-            background-color: #f8f9fa;
+            background-color: $theme-smooth;
         }
         & .card-title {
-            color: #202020;
+            color: $theme-dark;
         }
         & svg {
-            color: #202020;
+            color: $theme-dark;
         }
         & .navigator {
-            background-color: #f8f9fa;
+            background-color: $theme-smooth;
         }
     }
     & .nav-bas {
-        background-color: #e9ecef;
+        @include bg-nav($theme-smooth);
         & .text-link {
-            color: #202020;
+            color: $theme-dark;
         }
         & svg {
-            fill: #202020;
+            fill: $theme-dark;
         }
     }
 }
