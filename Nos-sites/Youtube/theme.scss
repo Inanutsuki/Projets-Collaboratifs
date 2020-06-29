@@ -1,0 +1,75 @@
+body.theme-dark {
+    & .nav-haut {
+        background-color: #2d2d2d;
+        & .icons-top {
+            color: #f8f9fa;
+        }
+        & .icons {
+            fill: #f8f9fa;
+        }
+        & .dropdown-toggle::after {
+            color: #f8f9fa;
+        }
+    }
+    & .body {
+        & .card {
+            background-color: #202020;
+        }
+        & .card-title {
+            color: #f8f9fa;
+        }
+        & svg {
+            color: #f8f9fa;
+        }
+        & .navigator {
+            background-color: #202020;
+        }
+    }
+    & .nav-bas {
+        background-color: #2d2d2d;
+        & .text-link {
+            color: #f8f9fa;
+        }
+        & svg {
+            fill: #f8f9fa;
+        }
+    }
+}
+
+body.theme-smooth {
+    & .nav-haut {
+        background-color: #e9ecef;
+        & .icons-top {
+            color: #202020;
+        }
+        & .icons {
+            fill: #202020;
+        }
+        & .dropdown-toggle::after {
+            color: #202020;
+        }
+    }
+    & .body {
+        & .card {
+            background-color: #f8f9fa;
+        }
+        & .card-title {
+            color: #202020;
+        }
+        & svg {
+            color: #202020;
+        }
+        & .navigator {
+            background-color: #f8f9fa;
+        }
+    }
+    & .nav-bas {
+        background-color: #e9ecef;
+        & .text-link {
+            color: #202020;
+        }
+        & svg {
+            fill: #202020;
+        }
+    }
+}

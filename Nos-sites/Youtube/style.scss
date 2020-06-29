@@ -46,9 +46,6 @@ Theme
 .nav-haut {
     & .icons-top {
         justify-content: flex-end;
-        @include theme($theme) {
-            color: $theme;
-        }
     }
 
     & img  {
@@ -61,9 +58,6 @@ Theme
     & .icons {
         width: 24px;
         height: 24px;
-        @include theme($theme) {
-            fill: $theme;
-        }
     }
     & li {
         padding-right: 10px;
@@ -71,11 +65,7 @@ Theme
     & .dropdown-menu {
         left: -132px;
     }
-    & .dropdown-toggle::after {
-        @include theme($theme) {
-            color: $theme;
-        }
-    }
+    
     & .form-inline:hover {
         background-color: transparent;
     }
@@ -84,17 +74,8 @@ Theme
 
 .body {
 
-    & .card-title {
-    @include theme($theme) {
-        color: $theme;
-        }
-    }
-
     & svg {
         width: 24px;
-        @include theme($theme) {
-        color: $theme;
-        }
     }
     & .svg {
         text-align: right;
@@ -105,7 +86,6 @@ Theme
     & .card {
         border: none;
         border-radius: 0;
-        background-color: #181818;
     }
     & .card-img {
         width: 100%;
@@ -145,17 +125,9 @@ Theme
 .nav-bas {
     position: fixed;
     bottom: 0;
-        & .text-link {
-            @include theme($theme) {
-                color: $theme;
-                }
-        }
 
         & svg {
             width: 24px;
-            @include theme($theme) {
-                fill: $theme;
-                }
         }
         & .navbar-nav {
             justify-content: space-around;

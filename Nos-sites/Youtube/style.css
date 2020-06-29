@@ -19,7 +19,6 @@ Theme
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: #202020;
 }
 
 .nav-haut img {
@@ -33,7 +32,6 @@ Theme
 .nav-haut .icons {
   width: 24px;
   height: 24px;
-  fill: #202020;
 }
 
 .nav-haut li {
@@ -44,21 +42,12 @@ Theme
   left: -132px;
 }
 
-.nav-haut .dropdown-toggle::after {
-  color: #202020;
-}
-
 .nav-haut .form-inline:hover {
   background-color: transparent;
 }
 
-.body .card-title {
-  color: #202020;
-}
-
 .body svg {
   width: 24px;
-  color: #202020;
 }
 
 .body .svg {
@@ -72,7 +61,6 @@ Theme
 .body .card {
   border: none;
   border-radius: 0;
-  background-color: #181818;
 }
 
 .body .card-img {
@@ -117,13 +105,8 @@ Theme
   bottom: 0;
 }
 
-.nav-bas .text-link {
-  color: #202020;
-}
-
 .nav-bas svg {
   width: 24px;
-  fill: #202020;
 }
 
 .nav-bas .navbar-nav {

@@ -1,0 +1,88 @@
+body.theme-dark .nav-haut {
+  background-color: #2d2d2d;
+}
+
+body.theme-dark .nav-haut .icons-top {
+  color: #f8f9fa;
+}
+
+body.theme-dark .nav-haut .icons {
+  fill: #f8f9fa;
+}
+
+body.theme-dark .nav-haut .dropdown-toggle::after {
+  color: #f8f9fa;
+}
+
+body.theme-dark .body .card {
+  background-color: #202020;
+}
+
+body.theme-dark .body .card-title {
+  color: #f8f9fa;
+}
+
+body.theme-dark .body svg {
+  color: #f8f9fa;
+}
+
+body.theme-dark .body .navigator {
+  background-color: #202020;
+}
+
+body.theme-dark .nav-bas {
+  background-color: #2d2d2d;
+}
+
+body.theme-dark .nav-bas .text-link {
+  color: #f8f9fa;
+}
+
+body.theme-dark .nav-bas svg {
+  fill: #f8f9fa;
+}
+
+body.theme-smooth .nav-haut {
+  background-color: #e9ecef;
+}
+
+body.theme-smooth .nav-haut .icons-top {
+  color: #202020;
+}
+
+body.theme-smooth .nav-haut .icons {
+  fill: #202020;
+}
+
+body.theme-smooth .nav-haut .dropdown-toggle::after {
+  color: #202020;
+}
+
+body.theme-smooth .body .card {
+  background-color: #f8f9fa;
+}
+
+body.theme-smooth .body .card-title {
+  color: #202020;
+}
+
+body.theme-smooth .body svg {
+  color: #202020;
+}
+
+body.theme-smooth .body .navigator {
+  background-color: #f8f9fa;
+}
+
+body.theme-smooth .nav-bas {
+  background-color: #e9ecef;
+}
+
+body.theme-smooth .nav-bas .text-link {
+  color: #202020;
+}
+
+body.theme-smooth .nav-bas svg {
+  fill: #202020;
+}
+/*# sourceMappingURL=theme.css.map */
