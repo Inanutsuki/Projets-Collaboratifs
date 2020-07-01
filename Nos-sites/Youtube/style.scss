@@ -28,16 +28,16 @@ Variables
 Theme 
 */
 
-$theme: $theme-dark;
-$theme-bg: $theme-smooth;
+// $theme: $theme-dark;
+// $theme-bg: $theme-smooth;
 
-.bg-theme {
-    background-color: nth($bg-theme, 2);
-}
+// .bg-theme {
+//     background-color: nth($bg-theme, 2);
+// }
 
-.bg-theme-nav {
-    @include bg-nav($theme-bg)
-}
+// .bg-theme-nav {
+//     @include bg-nav($theme-bg)
+// }
 
 /*
 Theme 
@@ -65,9 +65,21 @@ Theme
     & .dropdown-menu {
         left: -132px;
     }
-    
+
+    & .search.dropdown-item:hover {
+        background-color: transparent;
+    }
+
+    & .dropdown-item:active {
+        background-color: transparent;
+    }
+
     & .form-inline:hover {
         background-color: transparent;
+    }
+    & .search .form-control:focus {
+        border-color: transparent;
+        box-shadow: unset;
     }
 
 }

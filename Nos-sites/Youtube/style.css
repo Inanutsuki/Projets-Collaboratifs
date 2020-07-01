@@ -4,14 +4,6 @@ Variables
 /*
 Theme 
 */
-.bg-theme {
-  background-color: #f8f9fa;
-}
-
-.bg-theme-nav {
-  background-color: #e9ecef;
-}
-
 /*
 Theme 
 */
@@ -42,8 +34,22 @@ Theme
   left: -132px;
 }
 
+.nav-haut .search.dropdown-item:hover {
+  background-color: transparent;
+}
+
+.nav-haut .dropdown-item:active {
+  background-color: transparent;
+}
+
 .nav-haut .form-inline:hover {
   background-color: transparent;
+}
+
+.nav-haut .search .form-control:focus {
+  border-color: transparent;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
 }
 
 .body svg {

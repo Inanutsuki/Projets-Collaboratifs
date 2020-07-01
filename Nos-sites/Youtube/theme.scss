@@ -12,6 +12,18 @@ body.theme-dark {
         & .dropdown-toggle::after {
             color: $theme-smooth;
         }
+        & .dropdown-item {
+            color: $theme-smooth;
+        }
+        & .dropdown-item:hover {
+            background-color: $theme-dark;
+        }
+        & .search.dropdown-item {
+            @include bg-nav($theme-dark);
+        }
+        & .dropdown-menu {
+            @include bg-nav($theme-dark);
+        }
     }
     & .body {
         & .card {
