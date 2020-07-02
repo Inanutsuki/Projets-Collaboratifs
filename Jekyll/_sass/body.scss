@@ -28,34 +28,7 @@ Variables
 Theme 
 */
 
-.nav-haut {
-    & .icons-top {
-        justify-content: flex-end;
-    }
 
-    & img  {
-        margin-right: 5px;
-    }
-
-    & .btn {
-        border: none;
-    }
-    & .icons {
-        width: 24px;
-        height: 24px;
-    }
-    & li {
-        padding-right: 10px;
-    }
-    & .dropdown-menu {
-        left: -132px;
-    }
-    
-    & .form-inline:hover {
-        background-color: transparent;
-    }
-
-}
 
 .body {
 
@@ -100,6 +73,25 @@ Theme
         font-weight: 600;
         margin-bottom: 1px;
     }
+
+    & .video-responsive { 
+        overflow:hidden; 
+        padding-bottom:56.25%;
+        position:relative; 
+        height:0;
+    }
+        
+    & .video-responsive iframe {
+        left:0; 
+        top:0; 
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+    & .video_info {
+        margin: 15px 15px 0 15px;
+    }
     & .navigator {
         width: 100%;
         height: 85px;
@@ -107,44 +99,3 @@ Theme
 
 }
 
-.nav-bas {
-    position: fixed;
-    bottom: 0;
-
-        & svg {
-            width: 24px;
-        }
-        & .navbar-nav {
-            justify-content: space-around;
-        }
-        & .nav-item {
-            width: 100%;
-        }
-        & .col {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        & .nav-link {
-            margin: 10px 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        & .text-link {
-            font-weight: 400;
-            padding: 0 4px;
-            font-size: 12px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-        }
-        
-        & a:focus svg{
-            fill: red;
-            font-weight: 400;
-        }
-        & a:focus .text-link {
-            color: red;
-            font-weight: 400;
-          }        
-}

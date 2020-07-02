@@ -37,7 +37,7 @@ body.theme-dark {
         }
         & .navigator {
             background-color: $theme-dark;
-        }
+        }            
     }
     & .nav-bas {
         @include bg-nav($theme-dark);
