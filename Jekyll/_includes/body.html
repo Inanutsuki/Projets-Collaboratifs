@@ -13,23 +13,23 @@
         </div>
     </div>
 
-    {% for post in site.posts %}
+    {% for item in site.data.videos %}
     <div class="card">
         <div class="card-body">
             <div class="row mt-md-4">
                 <div class="col-md-4">
-                    <img alt="Image de couverture de la vidéo : titre de la vidéo en blanc sur fond noir, gros plan sur le personnage principal de Bref."
-                        class="card-img" src="{{ post.img }}" height="210px">
+                    <a href="{{ item.link }}"><img alt="Image de couverture de la vidéo : titre de la vidéo en blanc sur fond noir, gros plan sur le personnage principal de Bref."
+                        class="card-img" src="{{ item.img }}" height="210px"></a>
                 </div>
                 <div class="row col-md-8">
                     <img class="logo col-3" alt="logo de la chaîne youtube Bref. : Bref. écrit en blanc sur fond noir"
-                        src="{{ post.logo }}">
+                        src="{{ item.logo }}">
                     <div class="col p-0">
-                        <h6 class="card-title">{{ post.videoTitle }}</h6>
-                        <span>{{ post.chaine }}</span><span class="ytm-badge-and-byline-separator"
-                            aria-hidden="true">•</span><span>{{ post.vues }}</span><span
+                        <a href="{{ item.link }}"> <h6 class="card-title">{{ item.title }}</h6> </a>
+                        <span>{{ item.chaine }}</span><span class="ytm-badge-and-byline-separator"
+                            aria-hidden="true">•</span><span>{{ item.vues }}</span><span
                             class="ytm-badge-and-byline-separator"
-                            aria-hidden="true">•</span><span>{{ post.date | date_to_string }}</span>
+                            aria-hidden="true">•</span><span>{{ item.date | date_to_string }}</span>
                     </div>
                     <div class="col-2 svg" type="button" data-toggle="modal" data-target="#modal">
                         <svg classviewBox="0 0 24 24" fill="">
