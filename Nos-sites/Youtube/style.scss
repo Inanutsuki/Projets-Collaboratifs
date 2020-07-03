@@ -1,45 +1,4 @@
 /*
-Variables
-*/
-
-// $theme-dark: #202020;
-// $theme-smooth: #f8f9fa;
-// $bg-theme: ($theme-dark $theme-smooth);
-
-// @mixin theme($color) {
-//     @if ($color == $theme-dark) {
-//       $color: lighten($theme-dark, 90%);
-//     }@if ($color == $theme-smooth){
-//         $color: darken($theme-smooth, 90%)
-//     }
-//     @content;
-// }
-
-// @mixin bg-nav($color) {
-//     @if ($color == $theme-dark) {
-//       $color: lighten($theme-dark, 5%);
-//     }@if ($color == $theme-smooth){
-//         $color: darken($theme-smooth, 5%)
-//     }
-//     background-color: $color;
-// }
-
-/*
-Theme 
-*/
-
-// $theme: $theme-dark;
-// $theme-bg: $theme-smooth;
-
-// .bg-theme {
-//     background-color: nth($bg-theme, 2);
-// }
-
-// .bg-theme-nav {
-//     @include bg-nav($theme-bg)
-// }
-
-/*
 Theme 
 */
 
@@ -127,14 +86,12 @@ Theme
         font-weight: 600;
         margin-bottom: 1px;
     }
-    
     & .video-responsive { 
         overflow:hidden; 
         padding-bottom:56.25%;
         position:relative; 
         height:0;
     }
-        
     & .video-responsive iframe {
         left:0; 
         top:0; 
@@ -142,11 +99,19 @@ Theme
         width:100%;
         position:absolute;
     }
-
     & .video_info {
         margin: 15px 15px 0 15px;
+        & .video_title {
+            margin-bottom: 0;
+        }
+        & .video_nbvue {
+            color: hsla(0,0%,6.7%,.6);
+        }
+        & .video_action {
+            display: flex;
+            justify-content: space-around;
+        } 
     }
-
     & .navigator {
         width: 100%;
         height: 85px;

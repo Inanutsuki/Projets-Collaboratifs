@@ -1,10 +1,4 @@
 /*
-Variables
-*/
-/*
-Theme 
-*/
-/*
 Theme 
 */
 .nav-haut .icons-top {
@@ -118,6 +112,22 @@ Theme
 
 .body .video_info {
   margin: 15px 15px 0 15px;
+}
+
+.body .video_info .video_title {
+  margin-bottom: 0;
+}
+
+.body .video_info .video_nbvue {
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.body .video_info .video_action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .body .navigator {
