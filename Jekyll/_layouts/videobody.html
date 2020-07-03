@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+{% for item in site.data.videos %}
+    {% if item.link == page.url %}
 <div class="container-fluid p-0 body">
     <div class="container-fluid">
         <div class="row">
@@ -20,3 +22,5 @@ layout: base
         </div>
     </div>
 </div>
+{% endif %}
+{% endfor %}
