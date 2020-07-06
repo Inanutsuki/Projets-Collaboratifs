@@ -99,5 +99,13 @@ Theme
     & .description{
         margin-left: 15px;
     }
+
+    & .plus {
+        color: $theme-dark ;
+    }
+
+    & .show {
+        text-decoration: transparent;
+    }
 }
 
