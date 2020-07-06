@@ -16,16 +16,19 @@ layout: base
                     <p>{{ item.title }}</p>
                     <span class="nbvue">{{ item.vues }}</span>•<span class="date">{{ item.date }}</span>
                 </div>
-
-                {{ page.description | markdownify }}
-
-                <div>
-                    <a href="" data-target="#test" data-toggle="collapse" aria-expanded="true" id="haut">PLUS</a>
-                    <div id="test" class="collapse" aria-expanded="true">
-                        {{ content }}
+                <div class="description">
+                    {{ page.description | markdownify }}
+                    <div>
+                        <a href="" data-target="#test" data-toggle="collapse" aria-expanded="true" id="haut"
+                            class="plus">PLUS</a>
+                        <div id="test" class="collapse" aria-expanded="true">
+                            {{ content }}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        {% endif %}
-        {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endfor %}
