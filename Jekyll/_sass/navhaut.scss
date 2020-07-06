@@ -20,9 +20,21 @@
     & .dropdown-menu {
         left: -132px;
     }
-    
+
+    & .search.dropdown-item:hover {
+        background-color: transparent;
+    }
+
+    & .dropdown-item:active {
+        background-color: transparent;
+    }
+
     & .form-inline:hover {
         background-color: transparent;
+    }
+    & .search .form-control:focus {
+        border-color: transparent;
+        box-shadow: unset;
     }
 
 }
